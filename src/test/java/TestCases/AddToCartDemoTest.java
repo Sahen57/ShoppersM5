@@ -14,6 +14,8 @@ public class AddToCartDemoTest extends BaseClass{
 		System.out.println(Name);
 		System.out.println(Name);
 		System.out.println(Name);
+		System.out.println("Jungle");
+		System.out.println("Mangle");
 	}
 
 }
