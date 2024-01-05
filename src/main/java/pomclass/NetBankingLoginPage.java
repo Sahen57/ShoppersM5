@@ -68,5 +68,28 @@ public class NetBankingLoginPage {
 	{
 		return payNowButton;
 	}
+	
+	@FindBy(xpath="//iframe[@src='/transaction-message']")
+	private WebElement secondSubChildNetBankingPageFrameTag;
+	
+	public WebElement getsecondSubChildNetBankingPageFrameTag() 
+	{
+		return secondSubChildNetBankingPageFrameTag;
+	}
+	
+	@FindBy(id="Transaction Message")
+	private WebElement transactionMessage;
+	
+	public WebElement gettransactionMessage()
+	{
+		return transactionMessage;
+	}
+	@FindBy(xpath="//button[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium  css-79xub']")
+	private WebElement submitButtonOfTransactionMessage;
+	
+	public WebElement getsubmitButtonOfTransactionMessage()
+	{
+		return submitButtonOfTransactionMessage;
+	}
 
 }

@@ -114,7 +114,7 @@ public class AddToCartTest extends BaseClass {
 		
 		Assert.assertEquals(ocp.getorderConfirmText().getText(), "Order Confirmed");
 		
-		System.out.println("Order is Confirmed!!!!");
+		System.out.println("Cash on delivery Order is Confirmed!!!!");
 		
 	}
 	@Test(priority = 2,dependsOnMethods="Tc_AddAddress_001_Test")
@@ -171,6 +171,10 @@ public class AddToCartTest extends BaseClass {
 		nblp.getuserIdOfNetBanking().sendKeys("singhsahendar@gmail.com");
 		nblp.getpasswordOfNetBanking().sendKeys("UIpTsH5");
 		nblp.getsubmitButtonOfNetBankingLoginPage().click();
+		driver.switchTo().frame(nblp.getsecondSubChildNetBankingPageFrameTag());
+		nblp.gettransactionMessage().sendKeys("gift");
+		nblp.getsubmitButtonOfTransactionMessage().click();
+		driver.switchTo().parentFrame();
 		driver.switchTo().frame(nblp.getsubChildNetBankingPageFrameTag());
 		nblp.getpayNowButton().click();
 		driver.switchTo().defaultContent();
