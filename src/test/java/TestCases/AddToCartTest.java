@@ -15,6 +15,7 @@ import pomclass.AddressPage;
 import pomclass.HomePage;
 import pomclass.MyAddress;
 import pomclass.MyProfilePage;
+import pomclass.NetBankingLoginPage;
 import pomclass.NetBankingPage;
 import pomclass.OrderConfermationPage;
 import pomclass.PaymentPage;
@@ -162,6 +163,16 @@ public class AddToCartTest extends BaseClass {
 		driver.switchTo().frame(nbp.getnetBankingFrameTag());
 		nbp.getidhcBankRadioButton().click();
 		nbp.getsubmitButtonOfNetBankingPage().click();
+		driver.switchTo().defaultContent();
+		
+		NetBankingLoginPage nblp = new NetBankingLoginPage(driver);
+		driver.switchTo().frame(nblp.getparentNetBankingLoginPageFrameTag());
+		driver.switchTo().frame(nblp.getchildNetBankingLoginPageFrameTag());
+		nblp.getuserIdOfNetBanking().sendKeys("singhsahendar@gmail.com");
+		nblp.getpasswordOfNetBanking().sendKeys("UIpTsH5");
+		nblp.getsubmitButtonOfNetBankingLoginPage().click();
+		driver.switchTo().frame(nblp.getsubChildNetBankingPageFrameTag());
+		nblp.getpayNowButton().click();
 		driver.switchTo().defaultContent();
 	}
 //	@Test(priority=3)
