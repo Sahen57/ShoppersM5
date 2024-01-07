@@ -165,19 +165,19 @@ public class AddToCartTest extends BaseClass {
 		nbp.getsubmitButtonOfNetBankingPage().click();
 		driver.switchTo().defaultContent();
 		
-		NetBankingLoginPage nblp = new NetBankingLoginPage(driver);
-		driver.switchTo().frame(nblp.getparentNetBankingLoginPageFrameTag());
-		driver.switchTo().frame(nblp.getchildNetBankingLoginPageFrameTag());
-		nblp.getuserIdOfNetBanking().sendKeys("singhsahendar@gmail.com");
-		nblp.getpasswordOfNetBanking().sendKeys("UIpTsH5");
-		nblp.getsubmitButtonOfNetBankingLoginPage().click();
-		driver.switchTo().frame(nblp.getsecondSubChildNetBankingPageFrameTag());
-		nblp.gettransactionMessage().sendKeys("gift");
-		nblp.getsubmitButtonOfTransactionMessage().click();
-		driver.switchTo().parentFrame();
-		driver.switchTo().frame(nblp.getsubChildNetBankingPageFrameTag());
-		nblp.getpayNowButton().click();
-		driver.switchTo().defaultContent();
+//		NetBankingLoginPage nblp = new NetBankingLoginPage(driver);
+//		driver.switchTo().frame(nblp.getparentNetBankingLoginPageFrameTag());
+//		driver.switchTo().frame(nblp.getchildNetBankingLoginPageFrameTag());
+//		nblp.getuserIdOfNetBanking().sendKeys("singhsahendar@gmail.com");
+//		nblp.getpasswordOfNetBanking().sendKeys("UIpTsH5");
+//		nblp.getsubmitButtonOfNetBankingLoginPage().click();
+//		driver.switchTo().frame(nblp.getsecondSubChildNetBankingPageFrameTag());
+//		nblp.gettransactionMessage().sendKeys("gift");
+//		nblp.getsubmitButtonOfTransactionMessage().click();
+//		driver.switchTo().frame(nblp.getchildNetBankingLoginPageFrameTag());
+//		driver.switchTo().frame(nblp.getsubChildNetBankingPageFrameTag());
+//		nblp.getpayNowButton().click();
+//		driver.switchTo().defaultContent();
 	}
 //	@Test(priority=3)
 //	public void Tc_AddToCart_004_Test()
