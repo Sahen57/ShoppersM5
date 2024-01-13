@@ -12,6 +12,7 @@ public class AddToCartDemoTest extends BaseClass{
 		String Name=System.getProperty("name");
 		System.out.println("Jungle");
 		System.out.println("Mangle");
+		System.out.println("Mangle");
 	}
 
 }
