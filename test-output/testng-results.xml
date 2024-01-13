@@ -1,163 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-07T17:07:45 IST" name="Default suite" finished-at="2024-01-07T17:09:43 IST" duration-ms="118133">
+  <suite started-at="2024-01-13T12:16:13 IST" name="Default suite" finished-at="2024-01-13T12:16:59 IST" duration-ms="46322">
     <groups>
     </groups>
-    <test started-at="2024-01-07T17:07:45 IST" name="Default test" finished-at="2024-01-07T17:09:43 IST" duration-ms="118133">
-      <class name="TestCases.AddToCartTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:07:45 IST" name="launchBrowser" finished-at="2024-01-07T17:07:53 IST" duration-ms="7740" status="PASS">
+    <test started-at="2024-01-13T12:16:13 IST" name="Default test" finished-at="2024-01-13T12:16:59 IST" duration-ms="46322">
+      <class name="TestCases.AddToCartDemoTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.AddToCartDemoTest@2805d709]" started-at="2024-01-13T12:16:13 IST" name="launchBrowser" finished-at="2024-01-13T12:16:22 IST" duration-ms="9059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:07:54 IST" name="loginToApplication" finished-at="2024-01-07T17:08:01 IST" duration-ms="6199" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCases.AddToCartDemoTest@2805d709]" started-at="2024-01-13T12:16:22 IST" name="loginToApplication" finished-at="2024-01-13T12:16:43 IST" duration-ms="21536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="Tc_AddAddress_001_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:01 IST" name="Tc_AddAddress_001_Test" data-provider="dataProviderAddress" finished-at="2024-01-07T17:08:08 IST" duration-ms="7562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LoveBirds]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ambani Building,2nd floor]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Ambani Street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Ambani Villa]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Karnataka]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Bengaluru]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[560010]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[8900400271]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Tc_AddToCart_001()[pri:0, instance:TestCases.AddToCartDemoTest@2805d709]" started-at="2024-01-13T12:16:43 IST" name="Tc_AddToCart_001" finished-at="2024-01-13T12:16:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc_AddAddress_001_Test -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:08 IST" name="logoutFromApplication" finished-at="2024-01-07T17:08:23 IST" duration-ms="15355" status="PASS">
+        </test-method> <!-- Tc_AddToCart_001 -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TestCases.AddToCartDemoTest@2805d709]" started-at="2024-01-13T12:16:43 IST" name="logoutFromApplication" finished-at="2024-01-13T12:16:59 IST" duration-ms="15338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:23 IST" name="loginToApplication" finished-at="2024-01-07T17:08:25 IST" duration-ms="1373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="Tc_AddAddress_001_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:25 IST" name="Tc_AddAddress_001_Test" data-provider="dataProviderAddress" finished-at="2024-01-07T17:08:32 IST" duration-ms="7328" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Oyo Room]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Birla Building ,3rd floor]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Birla Street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Birla Villa]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Karnataka]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Bengaluru]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[560010]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[8900400272]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc_AddAddress_001_Test -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:32 IST" name="logoutFromApplication" finished-at="2024-01-07T17:08:47 IST" duration-ms="15307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:47 IST" name="loginToApplication" finished-at="2024-01-07T17:08:48 IST" duration-ms="958" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="Tc_EndToEndCashOnDelivery_Test()[pri:1, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:48 IST" name="Tc_EndToEndCashOnDelivery_Test" finished-at="2024-01-07T17:08:59 IST" depends-on-methods="TestCases.AddToCartTest.Tc_AddAddress_001_Test" duration-ms="11019" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc_EndToEndCashOnDelivery_Test -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:08:59 IST" name="logoutFromApplication" finished-at="2024-01-07T17:09:15 IST" duration-ms="15341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:09:15 IST" name="loginToApplication" finished-at="2024-01-07T17:09:16 IST" duration-ms="1016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method signature="Tc_EndToEndNetBanking_Test()[pri:2, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:09:16 IST" name="Tc_EndToEndNetBanking_Test" finished-at="2024-01-07T17:09:27 IST" depends-on-methods="TestCases.AddToCartTest.Tc_AddAddress_001_Test" duration-ms="11358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc_EndToEndNetBanking_Test -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:09:27 IST" name="logoutFromApplication" finished-at="2024-01-07T17:09:43 IST" duration-ms="15377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.AddToCartTest@71a8adcf]" started-at="2024-01-07T17:09:43 IST" name="quitBrowser" finished-at="2024-01-07T17:09:43 IST" duration-ms="852" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.AddToCartDemoTest@2805d709]" started-at="2024-01-13T12:16:59 IST" name="quitBrowser" finished-at="2024-01-13T12:16:59 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- TestCases.AddToCartTest -->
+      </class> <!-- TestCases.AddToCartDemoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
